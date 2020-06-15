@@ -6,5 +6,12 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  pathPrefix: '',
+  siteMetadata: {
+    title: 'はじめてのGraphQL',
+    description: 'GraphQLを初めて使ってみます。'
+  },
+  // plugins: [
+  //   'gatsby-plugin-styled-components',
+  // ]
 }
